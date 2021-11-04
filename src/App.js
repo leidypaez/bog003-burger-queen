@@ -9,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save.
           <em>Hola mundo, probrando app.</em>
+          Hola Fanny!
         </p>
         <a
           className="App-link"
