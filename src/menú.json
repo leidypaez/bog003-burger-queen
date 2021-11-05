@@ -1,0 +1,49 @@
+{
+  "morningMenu": "Desayuno",
+  "morningFood":[
+    "Sandwich de jamón y queso",
+    "Cafe americano",
+    "Cafe con leche",
+    "Biscocho de crema",
+    "Huevos al gusto",
+    "Ensalada de frutas"
+  ] ,
+  "menu":"Comidas",
+  "food":[
+    "Haburguesa sencilla",
+    "Haburguesa doble",
+    "Haburguesa vegetariana",
+    "Haburguesa vegana",
+    "Pizza hawaiana",
+    "Pizza mexicana",
+    "Pizza vegetariana",
+    "Alitas con papas",
+    "Perro caliente sencillo",
+    "Perro caliente especial",
+    "Perro caliente vegetariano"
+  ],
+  "juiceMenu":"Bebidas",
+  "juice":[
+    "Malteada de chocolate",
+    "Malteada de fresa",
+    "Malteada de vainilla",
+    "Jugo de maracuya",
+    "Jugo de lulo",
+    "Jugo de frutos rojos",
+    "Gaseosa",
+    "Agua"
+  ],
+  "additionalMenu": "Adiciones",
+  "additionalFood":[
+    "Papas a la francesa",
+    "Yuca frita",
+    "Aros de cebolla",
+    "Deditos de queso",
+    "Porción de carne",
+    "Porción de queso",
+    "Porción de jamón",
+    "Ensalada con pollo",
+    "Ensalada de vegetales"
+  ]
+
+}
