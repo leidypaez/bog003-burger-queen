@@ -1,49 +1,209 @@
 {
-  "morningMenu": "Desayuno",
-  "morningFood":[
-    "Sandwich de jamón y queso",
-    "Cafe americano",
-    "Cafe con leche",
-    "Biscocho de crema",
-    "Huevos al gusto",
-    "Ensalada de frutas"
-  ] ,
-  "menu":"Comidas",
-  "food":[
-    "Haburguesa sencilla",
-    "Haburguesa doble",
-    "Haburguesa vegetariana",
-    "Haburguesa vegana",
-    "Pizza hawaiana",
-    "Pizza mexicana",
-    "Pizza vegetariana",
-    "Alitas con papas",
-    "Perro caliente sencillo",
-    "Perro caliente especial",
-    "Perro caliente vegetariano"
-  ],
-  "juiceMenu":"Bebidas",
-  "juice":[
-    "Malteada de chocolate",
-    "Malteada de fresa",
-    "Malteada de vainilla",
-    "Jugo de maracuya",
-    "Jugo de lulo",
-    "Jugo de frutos rojos",
-    "Gaseosa",
-    "Agua"
-  ],
-  "additionalMenu": "Adiciones",
-  "additionalFood":[
-    "Papas a la francesa",
-    "Yuca frita",
-    "Aros de cebolla",
-    "Deditos de queso",
-    "Porción de carne",
-    "Porción de queso",
-    "Porción de jamón",
-    "Ensalada con pollo",
-    "Ensalada de vegetales"
-  ]
+    "menú": [
+      {
+        "name": "Sandwich de jamón y queso",
+        "img": "",
+        "price": 10000,
+        "type": "Desayuno"
+      },
+      {
+        "name": "Cafe americano",
+        "img": "",
+        "price": 4000,
+        "type": "Desayuno"
+      },
+      {
+        "name": "Cafe con leche",
+        "img": "",
+        "price": 5000,
+        "type": "Desayuno"
+      },
+      {
+        "name": "Biscocho de crema",
+        "img": "",
+        "price": 7000,
+        "type": "Desayuno"
+      },
+      {
+        "name": "Huevos al gusto",
+        "img": "",
+        "price": 5000,
+        "type": "Desayuno"
+      },
+      {
+        "name": "Ensalada de frutas",
+        "img": "",
+        "price": 100000,
+        "type": "Desayuno"
+      },
+    {
+      "name": "Hamburguesa sencilla",
+      "img": "",
+      "price": 15000,
+      "type": "Comidas"
+    },
+    {
+      "name": "Hamburguesa doble",
+      "img": "",
+      "price": 20000,
+      "type": "Comidas"
+    },
+    {
+      "name": "Hamburguesa vegetariana",
+      "img": "",
+      "price": 15000,
+      "type": "Comidas"
+    },
+    {
+      "name": "Hamburguesa vegana",
+      "img": "",
+      "price": 20000,
+      "type": "Comidas"
+    },
+    {
+      "name": "Pizza hawaiana",
+      "img": "",
+      "price": 15000,
+      "type": "Comidas"
+    },
+    {
+      "name": "Pizza mexicana",
+      "img": "",
+      "price": 16000,
+      "type": "Comidas"
+    },
+    {
+      "name": "Pizza vegetariana ",
+      "img": "",
+      "price": 25000,
+      "type": "Comidas"
+    },
+    {
+      "name": "Alitas con papas",
+      "img": "",
+      "price": 12000,
+      "type": "Comidas"
+    },
+    {
+      "name": "Perro caliente sencillo",
+      "img": "",
+      "price": 12000,
+      "type": "Comidas"
+    },
+    {
+      "name": "Perro caliente especial",
+      "img": "",
+      "price": 15000,
+      "type": "Comidas"
+    },
+    {
+      "name": "Perro caliente vegetariano ",
+      "img": "",
+      "price": 17000,
+      "type": "Comidas"
+    },
 
+    {
+      "name": "Malteada de chocolate",
+      "img": "",
+      "price": 8000,
+      "type": "Bebidas"
+    },
+    {
+      "name": "Malteada de fresa",
+      "img": "",
+      "price": 8000,
+      "type": "Bebidas"
+    },
+    {
+      "name": "Malteada de vainilla",
+      "img": "",
+      "price": 8000,
+      "type": "Bebidas"
+    },
+    {
+      "name": "Jugo de maracuya",
+      "img": "",
+      "price": 8000,
+      "type": "Bebidas"
+    },
+    {
+      "name": "Jugo de lulo",
+      "img": "",
+      "price": 8000,
+      "type": "Bebidas"
+    },
+    {
+      "name": "Jugo de frutos rojos",
+      "img": "",
+      "price": 8000,
+      "type": "Bebidas"
+    },
+    {
+      "name": "Gaseosa",
+      "img": "",
+      "price": 4000,
+      "type": "Bebidas"
+    },
+    {
+      "name": "Agua",
+      "img": "",
+      "price": 3000,
+      "type": "Bebidas"
+    },
+    {
+      "name": "Papas a la francesa",
+      "img": "",
+      "price": 12000,
+      "type": "Adiciones"
+    },
+    {
+      "name": "Yuca frita",
+      "img": "",
+      "price": 5000,
+      "type": "Adiciones"
+    },
+    {
+      "name": "Aros de cebolla",
+      "img": "",
+      "price": 5000,
+      "type": "Adiciones"
+    },
+    {
+      "name": "Deditos de queso",
+      "img": "",
+      "price": 5000,
+      "type": "Adiciones"
+    },
+    {
+      "name": "Porción de carne",
+      "img": "",
+      "price": 8000,
+      "type": "Adiciones"
+    },
+    {
+      "name": "Porción de queso",
+      "img": "",
+      "price": 6000,
+      "type": "Adiciones"
+    },
+    {
+      "name": "Porción de jamón",
+      "img": "",
+      "price": 8000,
+      "type": "Adiciones"
+    },
+    {
+      "name": "Ensalada con pollo",
+      "img": "",
+      "price": 7000,
+      "type": "Adiciones"
+    },
+    {
+      "name": "Ensalada de vegetales",
+      "img": "",
+      "price": 7000,
+      "type": "Adiciones"
+    }
+  ]
 }

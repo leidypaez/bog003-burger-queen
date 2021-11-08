@@ -31,7 +31,7 @@ body{
     transform: rotate(45deg);
   }
   50%{
-    transform: rotate(-45deg);
+    transform: rotate(-70deg);
   }
   100%{
     transform: rotate(45deg);
