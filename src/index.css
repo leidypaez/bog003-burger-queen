@@ -1,13 +1,23 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'ABeeZee', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'ABeeZee', sans-serif;
+}
+.link-color{
+  color: white;
+  text-decoration: none;
+}
+.waiterButton{
+  background-color:linear-gradient( to right, rgba(0, 0, 0, .75), rgba(23, 29, 102, .75));
+  font-size: 60px;
+  border-radius: 40px;
+
+}
+.waiterIcon{
+  width: 46.68px;
 }
