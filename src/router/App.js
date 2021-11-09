@@ -1,4 +1,4 @@
-import logo from '../src/images/img/logo.png';
+import Logo from '../media/Logo.png';
 import './App.css';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <body>
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={Logo} className="App-logo" alt="logo" />
           <img src={"./img/camareros.png"} alt="Mesero"/>
           <button>
             Mesero
