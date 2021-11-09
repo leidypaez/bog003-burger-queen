@@ -1,5 +1,5 @@
 body{
-  background-image: url(./img/fondo.jpg);
+  background-image: url(./fondo.jpg);
 }
 .App {
   text-align: center;
@@ -28,12 +28,12 @@ body{
 
 @keyframes App-logo-spin {
   0%{
-    transform: rotate(45deg);
+    transform: rotate(35deg);
   }
   50%{
-    transform: rotate(-70deg);
+    transform: rotate(-50deg);
   }
   100%{
-    transform: rotate(45deg);
+    transform: rotate(35deg);
   }
 }
