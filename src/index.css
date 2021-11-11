@@ -1,13 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+code {
+  font-family: "ABeeZee", sans-serif;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "ABeeZee", sans-serif;
+  background-image: url(./media/fondo.jpg);
+}
+/* Vista principal */
+.App {
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App-logo {
+  height: 52vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(35deg);
+  }
+  50% {
+    transform: rotate(-50deg);
+  }
+  100% {
+    transform: rotate(35deg);
+  }
+}
+.buttons {
+  margin: 20px;
+}
+.link-color {
+  color: white;
+  text-decoration: none;
+}
+.App {
+  grid-template-columns: 4;
+}
+.waiterButton {
+  background: linear-gradient(
+    89.5deg,
+    #cc30e6 18.53%,
+    #698deb 56.52%,
+    #24acf9 88.94%
+  );
+  font-size: 60px;
+  border-radius: 30px;
+  margin: 20px;
+  width: 320px;
+  height: 80px;
+  border: none;
+}
+.icon {
+  width: 46.68px;
+}
+.chefButton {
+  background: linear-gradient(89.5deg, #269731 28.66%, #24acf9 75.26%);
+  font-size: 60px;
+  border-radius: 30px;
+  margin: 20px;
+  width: 320px;
+  height: 80px;
+  border: none;
+}
+
+/* Vista waiter */
+.miniLogo {
+  position: absolute;
+  width: 300px;
+  height: 258.13px;
+  left: 12px;
+  top: -9px;
+}
+.navWaiter {
+  position: absolute;
+  width: 1080px;
+  height: 90px;
+  left: 286px;
+  top: 76px;
+  background: rgba(15, 3, 64, 0.5);
+  border-radius: 10px;
+}
+.waiter {
+  position: relative;
+  text-decoration: white;
+  cursor: pointer;
+  color: white;
+  font-size: 50px;
+  margin-left: 10%;
+}
+
+.iconWaiter {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  top: 15%;
 }
