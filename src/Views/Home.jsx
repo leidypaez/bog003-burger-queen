@@ -2,7 +2,7 @@ import Logo from '../media/Logo.png';
 import '../router/App.css';
 import '../index.css'
 import React from 'react';
-import { Link } from 'react-router-dom';
+import  { Link } from 'react-router-dom';
 import camareros from "../media/camareros.png";
 import chef from "../media/traje-de-chef.png"
 
