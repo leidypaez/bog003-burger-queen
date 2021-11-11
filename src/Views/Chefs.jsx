@@ -1,7 +1,7 @@
-import Logo from '../media/Logo.png';
+//import Logo from '../media/Logo.png';
 import '../router/App.css';
 import React from 'react';
-import  Link  from 'react-router-dom';
+//import  Link  from 'react-router-dom';
 
 const chefs =() => {
   return (
