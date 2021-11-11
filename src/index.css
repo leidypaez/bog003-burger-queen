@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
 code {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: "ABeeZee", sans-serif;
 }
 body {
   margin: 0;
-  font-family: 'ABeeZee', sans-serif;
+  font-family: "ABeeZee", sans-serif;
   background-image: url(./media/fondo.jpg);
 }
-
+/* Vista principal */
 .App {
   text-align: center;
 }
@@ -28,46 +29,85 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 @keyframes App-logo-spin {
-  0%{
+  0% {
     transform: rotate(35deg);
   }
-  50%{
+  50% {
     transform: rotate(-50deg);
   }
-  100%{
+  100% {
     transform: rotate(35deg);
   }
 }
-.buttons{
-  margin:20px ;
+.buttons {
+  margin: 20px;
 }
-.link-color{
+.link-color {
   color: white;
   text-decoration: none;
 }
-.App{
+.App {
   grid-template-columns: 4;
 }
-.waiterButton{
-  background:linear-gradient(89.5deg, #CC30E6 18.53%, #698DEB 56.52%, #24ACF9 88.94%);
+.waiterButton {
+  background: linear-gradient(
+    89.5deg,
+    #cc30e6 18.53%,
+    #698deb 56.52%,
+    #24acf9 88.94%
+  );
   font-size: 60px;
   border-radius: 30px;
   margin: 20px;
   width: 320px;
   height: 80px;
+  border: none;
 }
-.icon{
+.icon {
   width: 46.68px;
 }
-.chefButton{
-  background:linear-gradient(89.5deg, #269731 28.66%, #24ACF9 75.26%);
+.chefButton {
+  background: linear-gradient(89.5deg, #269731 28.66%, #24acf9 75.26%);
   font-size: 60px;
   border-radius: 30px;
   margin: 20px;
   width: 320px;
   height: 80px;
+  border: none;
+}
+
+/* Vista waiter */
+.miniLogo {
+  position: absolute;
+  width: 300px;
+  height: 258.13px;
+  left: 12px;
+  top: -9px;
+}
+.navWaiter {
+  position: absolute;
+  width: 1080px;
+  height: 90px;
+  left: 286px;
+  top: 76px;
+  background: rgba(15, 3, 64, 0.5);
+  border-radius: 10px;
+}
+.waiter {
+  position: relative;
+  text-decoration: white;
+  cursor: pointer;
+  color: white;
+  font-size: 50px;
+  margin-left: 10%;
+}
+
+.iconWaiter {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  top: 15%;
 }
