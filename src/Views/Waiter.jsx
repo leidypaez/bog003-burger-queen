@@ -5,9 +5,14 @@ import { Link } from 'react-router-dom';
 import Logo from '../media/Logo.png';
 import camareros from '../media/camareros.png';
 import MenuListSummary from '../components/SummaryMenu';
+import '../index.css'
+import React from "react";
+import Header from "../components/header";
+import TabMenu from '../components/tabMenu';
 
 
 const waiter = () => {
+
   return (
   <>
     <header className='headerWaiter'>
@@ -33,6 +38,13 @@ const waiter = () => {
 
     </section>
    </>
+    <>
+      <Header/>
+      <input type="text" placeholder="Nombre del cliente" className="inputName" ></input>
+      <input type="text" placeholder="N° de mesa" className="inputTables"></input>
+      <TabMenu/>
+      
+    </>
   );
 
 };

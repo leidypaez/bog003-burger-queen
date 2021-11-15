@@ -1,11 +1,21 @@
-//import Logo from '../media/Logo.png';
-import '../router/App.css';
+import '../index.css'
 import React from 'react';
-//import  Link  from 'react-router-dom';
+import { Link } from "react-router-dom"
+import Logo from "../media/Logo.png";
+import chef from '../media/traje-de-chef.png'
 
 const chefs =() => {
   return (
-    <h1>Cocina</h1>
-  )
+    <header>
+      <img src={Logo} alt="Pizza planet" className="miniLogo" />
+      <nav className="navWaiter">
+        <Link to="/" className="chef">
+          <img src={chef} className="iconChef" alt="Mesero" />
+          Inicio
+        </Link>
+      </nav>
+      
+    </header>
+  );
 }
 export default chefs;
