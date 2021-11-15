@@ -2,19 +2,19 @@
     "menu": [
       {
         "name": "Sandwich de jamón y queso",
-        "img": "https://i.imgur.com/wn0tzXo.jpeg",
+        "img": "public/MediaMenu/sandwich-de-jamon-y-queso.jpg",
         "price": 10000,
         "type": "Desayuno"
       },
       {
         "name": "Cafe americano",
-        "img": "https://imgur.com/D5DKYGJ.jpeg",
+        "img": "",
         "price": 4000,
         "type": "Desayuno"
       },
       {
         "name": "Cafe con leche",
-        "img": "https://imgur.com/Fu5d7Zm.jpeg",
+        "img": "",
         "price": 5000,
         "type": "Desayuno"
       },
@@ -80,7 +80,7 @@
     },
     {
       "name": "Alitas con papas",
-      "img": "https://imgur.com/RQBxNdm",
+      "img": "public/MediaMenu/alitas-con-papas.jpg",
       "price": 12000,
       "type": "Comidas"
     },
