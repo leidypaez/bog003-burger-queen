@@ -1,0 +1,79 @@
+
+.tabContainer{
+    width: 100%;
+    max-width: 550px;
+    margin-top: 196px;
+    margin-left: 40px;
+
+}
+.lblTab{
+    background: linear-gradient(
+      89.5deg,
+      #cc30e6 18.53%,
+      #698deb 56.52%,
+      #24acf9 88.94%
+    );
+    border-radius: 20px;
+    text-align: center;
+}
+.lblTab label{
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease;
+    font-size: 25px;
+    height: 35px;
+    margin-top: 5px;
+}
+.lblTab label:hover{
+    font-style: italic;
+    font-weight: bolder;
+}  
+.content{
+    position: relative;
+}
+.content div{
+    position: absolute;
+    box-sizing: border-box;
+    transition: all 600ms ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.90);
+    background: #fff;
+    min-width: 550px;
+    height: 70vh;
+    margin-top: 20px;
+}
+#Desayuno,#Comidas,#Bebidas,#Adiciones{
+    display: none;
+}
+#Desayuno:checked ~ .tab1,
+#Comidas:checked ~ .tab2,
+#Bebidas:checked ~ .tab3,
+#Adiciones:checked ~ .tab4
+{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+.content div:after{
+    position: absolute;
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    bottom: 100%;
+    left: 88px;
+}
+.content .tab2:after{
+    left: 214px;
+}
+.content .tab3:after{
+    left: 329px;
+}
+.content .tab4:after{
+    left: 448px;
+}
+
