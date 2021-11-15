@@ -1,10 +1,8 @@
 import '../index.css'
 import React from "react";
-import { Link } from "react-router-dom"
 import Header from "../components/header";
 import TabMenu from '../components/tabMenu';
 
-const menu = dataJson.menu;
 
 const waiter = () => {
 
