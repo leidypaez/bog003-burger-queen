@@ -16,5 +16,7 @@ const waiter = () => {
       
     </>
   );
+
 };
+
 export default waiter;

@@ -1,23 +1,23 @@
 {
-    "menú": [
+    "menu": [
       {
         "id":"D1",
         "name": "Sandwich de jamón y queso",
-        "img": "https://imgur.com/wn0tzXo",
+        "img": "https://i.imgur.com/wn0tzXo.jpeg",
         "price": 10000,
         "type": "Desayuno"
       },
       {
         "id":"D2",
         "name": "Cafe americano",
-        "img": "https://imgur.com/D5DKYGJ",
+        "img": "https://imgur.com/D5DKYGJ.jpeg",
         "price": 4000,
         "type": "Desayuno"
       },
       {
         "id":"D3",
         "name": "Cafe con leche",
-        "img": "https://imgur.com/Fu5d7Zm",
+        "img": "https://imgur.com/Fu5d7Zm.jpeg",
         "price": 5000,
         "type": "Desayuno"
       },
