@@ -119,7 +119,7 @@ body {
   top: 15%;
 }
 
-/*estilos para el menu*/
+
 .menuItems {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
