@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-//import Logo from '../media/Logo.png';
-import '../router/App.css';
-import React from 'react';
-//import  Link  from 'react-router-dom';
-=======
 import '../index.css'
 import React from 'react';
 import { Link } from "react-router-dom"
 import Logo from "../media/Logo.png";
 import chef from '../media/traje-de-chef.png'
->>>>>>> f0b917a6ae08c1c70a73a5dc1321f987ceaefe1e
 
 const chefs =() => {
   return (
