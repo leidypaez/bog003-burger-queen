@@ -40,7 +40,7 @@
     opacity: 0;
     visibility: hidden;
     transform: scale(0.90);
-    background: #fff;
+    background: rgba(255, 251, 251, 0.219);
     min-width: 550px;
     height: 70vh;
     margin-top: 20px;
@@ -63,7 +63,7 @@
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 10px solid transparent;
-    border-bottom: 10px solid #fff;
+    border-bottom: 10px solid rgba(255, 251, 251, 0.219);
     bottom: 100%;
     left: 88px;
 }
