@@ -6,12 +6,22 @@ body {
   margin: 0;
   font-family: "ABeeZee", sans-serif;
   background-image: url(./media/fondo.jpg);
+  background-repeat: no-repeat;
+
+}
+:root {
+  --waiterButton: linear-gradient(
+    89.5deg,
+    #cc30e6 18.53%,
+    #698deb 56.52%,
+    #24acf9 88.94%
+  );
+  --tittleText: white;
 }
 /* Vista principal */
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 52vmin;
   pointer-events: none;
@@ -46,19 +56,17 @@ body {
   margin: 20px;
 }
 .link-color {
-  color: white;
+  color: var(--tittleText);
   text-decoration: none;
+}
+.link-active {
+  font-weight: bold;
 }
 .App {
   grid-template-columns: 4;
 }
 .waiterButton {
-  background: linear-gradient(
-    89.5deg,
-    #cc30e6 18.53%,
-    #698deb 56.52%,
-    #24acf9 88.94%
-  );
+  background: var(--waiterButton);
   font-size: 60px;
   border-radius: 30px;
   margin: 20px;
@@ -82,8 +90,7 @@ body {
 /* Vista waiter */
 .miniLogo {
   position: absolute;
-  width: 300px;
-  height: 258.13px;
+  height: 200px;
   left: 12px;
   top: -9px;
 }
@@ -110,4 +117,59 @@ body {
   width: 60px;
   height: 60px;
   top: 15%;
+}
+.inputName {
+  position: absolute;
+  width: 459px;
+  height: 60px;
+  left: 843px;
+  top: 195px;
+  background: linear-gradient(
+    89.5deg,
+    rgba(204, 48, 230, 0.9) 18.53%,
+    rgba(105, 141, 235, 0.9) 56.52%,
+    rgba(36, 172, 249, 0.9) 88.94%
+  );
+  border-radius: 20px;
+  font-size: 25px;
+  border: none;
+  padding-left: 30px;
+  color: var(--tittleText);
+}
+.inputName::placeholder {
+  color: var(--tittleText);
+}
+.inputTables {
+  position: absolute;
+  width: 170px;
+  height: 60px;
+  left: 635px;
+  top: 196px;
+  background: var(--waiterButton);
+  border-radius: 20px;
+  font-size: 25px;
+  border: none;
+  padding-left: 30px;
+  color: var(--tittleText);
+}
+.inputTables::placeholder {
+  color: var(--tittleText);
+}
+
+
+/* Vista chef */
+.iconChef {
+  position: relative;
+  width: 55px;
+  height: 56px;
+  top: 15px;
+}
+a.chef {
+  position: relative;
+  text-decoration: white;
+  cursor: pointer;
+  color: white;
+  font-size: 50px;
+  margin-left: 60%;
+  top: 5%;
 }

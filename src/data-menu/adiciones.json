@@ -1,0 +1,67 @@
+{
+  "adiciones": [
+    {
+      "id": "A1",
+      "name": "Papas a la francesa",
+      "img": "https://imgur.com/oNctVqN",
+      "price": 4000,
+      "type": "Adiciones"
+    },
+    {
+      "id": "A2",
+      "name": "Yuca frita",
+      "img": "https://imgur.com/eulm5X7",
+      "price": 5000,
+      "type": "Adiciones"
+    },
+    {
+      "id": "A3",
+      "name": "Aros de cebolla",
+      "img": "https://imgur.com/hQtVLoY",
+      "price": 5000,
+      "type": "Adiciones"
+    },
+    {
+      "id": "A4",
+      "name": "Deditos de queso",
+      "img": "https://imgur.com/P3KkSrb",
+      "price": 5000,
+      "type": "Adiciones"
+    },
+    {
+      "id": "A5",
+      "name": "Porción de carne",
+      "img": "https://imgur.com/IZEc4sm",
+      "price": 8000,
+      "type": "Adiciones"
+    },
+    {
+      "id": "A6",
+      "name": "Porción de queso",
+      "img": "https://imgur.com/t1ZlpyJ",
+      "price": 6000,
+      "type": "Adiciones"
+    },
+    {
+      "id": "A7",
+      "name": "Porción de jamón",
+      "img": "https://imgur.com/gm8P3HN",
+      "price": 8000,
+      "type": "Adiciones"
+    },
+    {
+      "id": "A8",
+      "name": "Ensalada de pollo",
+      "img": "https://imgur.com/tzwGymP",
+      "price": 7000,
+      "type": "Adiciones"
+    },
+    {
+      "id": "A9",
+      "name": "Ensalada de vegetales",
+      "img": "https://imgur.com/cN7bNaG",
+      "price": 7000,
+      "type": "Adiciones"
+    }
+  ]
+}

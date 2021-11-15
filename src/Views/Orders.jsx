@@ -1,11 +1,14 @@
-// import Logo from '../media/Logo.png';
-import '../router/App.css';
-import React from 'react';
-
+import '../index.css'
+import React from "react";
+import Header from '../components/header.jsx'
+import Alitas from '../media/alitasConPapas.jpg'
 
 const orders =() => {
   return (
-    <h1>Pedidos</h1>
+    <>
+    <Header/>
+    </>
+     
   )
 }
 export default orders;
