@@ -1,5 +1,4 @@
 import Logo from '../media/Logo.png';
-import '../router/App.css';
 import '../index.css'
 import React from 'react';
 import { Link } from 'react-router-dom';
