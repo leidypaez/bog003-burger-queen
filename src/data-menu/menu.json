@@ -1,102 +1,119 @@
 {
     "menú": [
       {
+        "id":"D1",
         "name": "Sandwich de jamón y queso",
         "img": "https://imgur.com/wn0tzXo",
         "price": 10000,
         "type": "Desayuno"
       },
       {
+        "id":"D2",
         "name": "Cafe americano",
         "img": "https://imgur.com/D5DKYGJ",
         "price": 4000,
         "type": "Desayuno"
       },
       {
+        "id":"D3",
         "name": "Cafe con leche",
         "img": "https://imgur.com/Fu5d7Zm",
         "price": 5000,
         "type": "Desayuno"
       },
       {
+        "id":"D4",
         "name": "Biscocho de crema",
         "img": "https://imgur.com/zS5Gce3",
         "price": 7000,
         "type": "Desayuno"
       },
       {
+        "id":"D5",
         "name": "Huevos al gusto",
         "img": "https://imgur.com/NWPMeZo",
         "price": 5000,
         "type": "Desayuno"
       },
       {
+        "id":"D6",
         "name": "Ensalada de frutas",
         "img": "https://imgur.com/9tCxAef",
-        "price": 100000,
+        "price": 10000,
         "type": "Desayuno"
       },
     {
+      "id":"C1",
       "name": "Hamburguesa sencilla",
       "img": "https://imgur.com/6x7rtAW",
       "price": 15000,
       "type": "Comidas"
     },
     {
+      "id":"C2",
       "name": "Hamburguesa doble",
       "img": "https://imgur.com/r2ifToL",
       "price": 20000,
       "type": "Comidas"
     },
     {
+      "id":"C3",
       "name": "Hamburguesa vegetariana",
       "img": "https://imgur.com/ou7Nubr",
       "price": 15000,
       "type": "Comidas"
     },
     {
+      "id":"C4",
       "name": "Hamburguesa vegana",
       "img": "https://imgur.com/ou7Nubr",
       "price": 20000,
       "type": "Comidas"
     },
     {
+      "id":"C5",
       "name": "Pizza hawaiana",
       "img": "https://imgur.com/V4yTZhw",
       "price": 15000,
       "type": "Comidas"
     },
     {
+      "id":"C6",
       "name": "Pizza mexicana",
       "img": "https://imgur.com/TuTCndV",
       "price": 16000,
       "type": "Comidas"
     },
     {
+      "id":"C7",
       "name": "Pizza vegetariana ",
       "img": "https://imgur.com/CwZQh3M",
       "price": 25000,
       "type": "Comidas"
     },
     {
+      "id":"C8",
       "name": "Alitas con papas",
       "img": "https://imgur.com/RQBxNdm",
       "price": 12000,
       "type": "Comidas"
     },
     {
+      "id":"C9",
       "name": "Perro caliente sencillo",
       "img": "https://imgur.com/Wtroi5T",
       "price": 12000,
       "type": "Comidas"
     },
     {
+      "id":"C10",
       "name": "Perro caliente especial",
       "img": "https://imgur.com/5g8v3kh",
       "price": 15000,
       "type": "Comidas"
     },
     {
+      "id":"C11",
       "name": "Perro caliente vegetariano ",
       "img": "https://imgur.com/CibCVad",
       "price": 17000,
@@ -104,106 +121,60 @@
     },
 
     {
+      "id":"B1",
       "name": "Malteada de chocolate",
       "img": "https://imgur.com/TBj7w8g",
       "price": 8000,
       "type": "Bebidas"
     },
     {
+      "id":"B2",
       "name": "Malteada de fresa",
       "img": "https://imgur.com/6ddMKj1",
       "price": 8000,
       "type": "Bebidas"
     },
     {
+      "id":"B3",
       "name": "Malteada de vainilla",
       "img": "https://imgur.com/e0ZMTI5",
       "price": 8000,
       "type": "Bebidas"
     },
     {
+      "id":"B4",
       "name": "Jugo de maracuya",
       "img": "https://imgur.com/wtFmK1f",
       "price": 8000,
       "type": "Bebidas"
     },
     {
+      "id":"B5",
       "name": "Jugo de lulo",
       "img": "https://imgur.com/4aghi7e",
       "price": 8000,
       "type": "Bebidas"
     },
     {
+      "id":"B6",
       "name": "Jugo de frutos rojos",
       "img": "https://imgur.com/pBnekcM",
       "price": 8000,
       "type": "Bebidas"
     },
     {
+      "id":"B7",
       "name": "Gaseosa",
       "img": "https://imgur.com/n3qWh9p",
       "price": 4000,
       "type": "Bebidas"
     },
     {
+      "id":"B8",
       "name": "Agua",
       "img": "https://imgur.com/Va4Y3EK",
       "price": 3000,
       "type": "Bebidas"
-    },
-    {
-      "name": "Papas a la francesa",
-      "img": "https://imgur.com/oNctVqN",
-      "price": 12000,
-      "type": "Adiciones"
-    },
-    {
-      "name": "Yuca frita",
-      "img": "https://imgur.com/eulm5X7",
-      "price": 5000,
-      "type": "Adiciones"
-    },
-    {
-      "name": "Aros de cebolla",
-      "img": "https://imgur.com/hQtVLoY",
-      "price": 5000,
-      "type": "Adiciones"
-    },
-    {
-      "name": "Deditos de queso",
-      "img": "https://imgur.com/P3KkSrb",
-      "price": 5000,
-      "type": "Adiciones"
-    },
-    {
-      "name": "Porción de carne",
-      "img": "https://imgur.com/IZEc4sm",
-      "price": 8000,
-      "type": "Adiciones"
-    },
-    {
-      "name": "Porción de queso",
-      "img": "https://imgur.com/t1ZlpyJ",
-      "price": 6000,
-      "type": "Adiciones"
-    },
-    {
-      "name": "Porción de jamón",
-      "img": "https://imgur.com/gm8P3HN",
-      "price": 8000,
-      "type": "Adiciones"
-    },
-    {
-      "name": "Ensalada de pollo",
-      "img": "https://imgur.com/tzwGymP",
-      "price": 7000,
-      "type": "Adiciones"
-    },
-    {
-      "name": "Ensalada de vegetales",
-      "img": "https://imgur.com/cN7bNaG",
-      "price": 7000,
-      "type": "Adiciones"
     }
   ]
 }
