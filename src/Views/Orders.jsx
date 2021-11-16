@@ -1,7 +1,7 @@
-import '../index.css'
-import React from "react";
-import Header from '../components/header.jsx'
-import Alitas from '../media/alitasConPapas.jpg'
+import '../index.css';
+import React from 'react';
+import Header from '../components/WaiterNav.jsx';
+
 
 const orders =() => {
   return (

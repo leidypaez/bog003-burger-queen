@@ -89,41 +89,45 @@ body {
 
 /* Vista waiter */
 .miniLogo {
-  position: absolute;
-  height: 200px;
+  position: relative;
+  height: 120px;
   left: 12px;
-  top: -9px;
 }
-.navWaiter {
+
+.nav-waiter nav {
   position: absolute;
-  width: 1080px;
-  height: 90px;
-  left: 286px;
-  top: 76px;
-  background: rgba(15, 3, 64, 0.5);
+  width: 500px;
+  top: 4%;
+  right: 5%;
   border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+
 }
+
 .waiter {
   position: relative;
   text-decoration: white;
   cursor: pointer;
   color: white;
-  font-size: 50px;
-  margin-left: 10%;
+  font-size: 25px;
 }
 
 .iconWaiter {
   position: relative;
-  width: 60px;
-  height: 60px;
-  top: 15%;
+  width: 40px;
+  height: 40px;
+
 }
 
 
 .menuItems {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
   gap: 21px 21px;
   grid-auto-flow: row;
   position: absolute;
@@ -139,10 +143,6 @@ body {
 .itemMenu p {
   color: #fff;
   text-align: center;
-}
-
-.headerWaiter {
-  position: absolute;
 }
 
 .menuListSummary {
@@ -179,9 +179,9 @@ body {
 
 .inputName {
   position: absolute;
-  width: 459px;
-  height: 60px;
-  left: 843px;
+  width: 392px;
+  height: 80px;
+  left: 930px;
   top: 195px;
   background: linear-gradient(
     89.5deg,
