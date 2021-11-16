@@ -1,12 +1,12 @@
 import '../index.css'
 import React from "react";
-import Header from '../components/header.jsx'
-import Alitas from '../media/alitasConPapas.jpg'
+import WaiterNav from '../components/WaiterNav'
+
 
 const orders =() => {
   return (
     <>
-    <Header/>
+    <WaiterNav/>
     </>
      
   )

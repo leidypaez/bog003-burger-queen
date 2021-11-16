@@ -1,0 +1,44 @@
+.menuItems {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 240px 240px;
+    grid-gap:20px 45px;
+    grid-auto-flow: row;
+    position: absolute;
+    
+  }
+  .itemMenu {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    width: 264px;
+    height:307px;
+    align-items: center;
+  }
+  .itemImg{
+    width:230px ;
+    padding: 16px;
+  }
+  .itemMenu p {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-top: -5px;
+  }
+  .menuListSummary {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    position: absolute;
+    width: 700px;
+    min-height: 70vh;
+    margin-top: 19px;
+    right: 30px;
+  }
+  .menuListHeader {
+    display: flex;
+    color: #fff;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 5%;
+  }

@@ -5,7 +5,7 @@ import Logo from "../media/Logo.png";
 import camareros from "../media/camareros.png";
 
 
-function Header(){
+function WaiterNav(){
   return (
     <header>
       <img src={Logo} alt="Pizza planet" className="miniLogo" />
@@ -25,4 +25,4 @@ function Header(){
     </header>
   );
 };
-export default Header;
+export default WaiterNav;

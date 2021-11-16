@@ -3,70 +3,70 @@
       {
         "id":"D1",
         "name": "Sandwich de jamón y queso",
-        "img": "https://i.imgur.com/wn0tzXo.jpeg",
+        "img": "/images/Sandwich jamon y queso.jpg",
         "price": 10000,
         "type": "Desayuno"
       },
       {
         "id":"D2",
         "name": "Cafe americano",
-        "img": "https://imgur.com/D5DKYGJ.jpeg",
+        "img": "/images/CafeAmericano.jpg",
         "price": 4000,
         "type": "Desayuno"
       },
       {
         "id":"D3",
         "name": "Cafe con leche",
-        "img": "https://imgur.com/Fu5d7Zm.jpeg",
+        "img": "/images/CafeConLeche.jpg",
         "price": 5000,
         "type": "Desayuno"
       },
       {
         "id":"D4",
         "name": "Biscocho de crema",
-        "img": "https://imgur.com/zS5Gce3",
+        "img": "/images/BiscochoDeCrema.jpg",
         "price": 7000,
         "type": "Desayuno"
       },
       {
         "id":"D5",
         "name": "Huevos al gusto",
-        "img": "https://imgur.com/NWPMeZo",
+        "img": "/images/huevosAlGusto.jpg",
         "price": 5000,
         "type": "Desayuno"
       },
       {
         "id":"D6",
         "name": "Ensalada de frutas",
-        "img": "https://imgur.com/9tCxAef",
+        "img": "/images/ensaladaDeFrutas.jpg",
         "price": 10000,
         "type": "Desayuno"
       },
     {
       "id":"C1",
       "name": "Hamburguesa sencilla",
-      "img": "https://imgur.com/6x7rtAW",
+      "img": "https://imgur.com/6x7rtAW.jpg",
       "price": 15000,
       "type": "Comidas"
     },
     {
       "id":"C2",
       "name": "Hamburguesa doble",
-      "img": "https://imgur.com/r2ifToL",
+      "img": "/images/HamburguesaDoble.jpg",
       "price": 20000,
       "type": "Comidas"
     },
     {
       "id":"C3",
       "name": "Hamburguesa vegetariana",
-      "img": "https://imgur.com/ou7Nubr",
+      "img": "/images/HamburguesaVegetariana.jpg",
       "price": 15000,
       "type": "Comidas"
     },
     {
       "id":"C4",
       "name": "Hamburguesa vegana",
-      "img": "https://imgur.com/ou7Nubr",
+      "img": "/images/HamburguesaVegana.png",
       "price": 20000,
       "type": "Comidas"
     },
@@ -80,21 +80,21 @@
     {
       "id":"C6",
       "name": "Pizza mexicana",
-      "img": "https://imgur.com/TuTCndV",
+      "img": "/images/PizzaMexicana.png",
       "price": 16000,
       "type": "Comidas"
     },
     {
       "id":"C7",
       "name": "Pizza vegetariana ",
-      "img": "https://imgur.com/CwZQh3M",
+      "img": "/images/PizzaVegetariana.jpg",
       "price": 25000,
       "type": "Comidas"
     },
     {
       "id":"C8",
       "name": "Alitas con papas",
-      "img": "https://imgur.com/RQBxNdm",
+      "img": "/images/alitasConPapas.jpg",
       "price": 12000,
       "type": "Comidas"
     },
