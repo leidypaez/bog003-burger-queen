@@ -40,9 +40,9 @@
     opacity: 0;
     visibility: hidden;
     transform: scale(0.90);
-    background: rgba(255, 251, 251, 0.219);
+    background: rgba(255, 251, 251, 0);
     min-width: 550px;
-    height: 70vh;
+    min-height: 70vh;
     margin-top: 20px;
 }
 #Desayuno,#Comidas,#Bebidas,#Adiciones{

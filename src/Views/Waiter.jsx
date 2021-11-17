@@ -1,29 +1,23 @@
-import React from 'react';
-import MenuItems from '../components/ItemMenu';
-import MenuListSummary from '../components/SummaryMenu';
+import '../index.css'
+import React from "react";
+import { Link } from "react-router-dom"
+import WaiterNav from "../components/WaiterNav";
 import TabMenu from '../components/tabMenu';
-import WaiterNav from '../components/WaiterNav';
-import '../index.css';
-
-
+import MenuListSummary from '../components/SummaryMenu'
 
 
 const waiter = () => {
 
   return (
     <>
-      <section className='menuSection'>
-
-        <MenuItems />
-        <MenuListSummary />
-
-      </section>
-      <WaiterNav />
-
+      <WaiterNav/>
       <input type="text" placeholder="Nombre del cliente" className="inputName" ></input>
       <input type="text" placeholder="N° de mesa" className="inputTables"></input>
-
-      <TabMenu />
+      <TabMenu/>
+      <section className='menuSection'>
+        <MenuListSummary />
+      </section>
+      
     </>
   );
 

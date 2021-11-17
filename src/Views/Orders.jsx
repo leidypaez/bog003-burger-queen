@@ -1,12 +1,12 @@
-import '../index.css';
-import React from 'react';
-import Header from '../components/WaiterNav.jsx';
+import '../index.css'
+import React from "react";
+import WaiterNav from '../components/WaiterNav'
 
 
 const orders =() => {
   return (
     <>
-    <Header/>
+    <WaiterNav/>
     </>
      
   )

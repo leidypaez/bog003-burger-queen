@@ -1,7 +1,9 @@
-import "./tab.css";
-import React from "react";
+import "../CSS/tab.css";
+import { React, useState } from "react";
+import MenuItems from './ItemMenu.jsx';
 
 function TabMenu() {
+  const [filter, setFilter]= useState("")
   return (
     <div className="tabContainer">
       <div className="lblTab" >
@@ -11,21 +13,21 @@ function TabMenu() {
         <label for="Adiciones">Adiciones</label>
       </div>
       <div className="content">
-        <input type="radio" name="radio" id="Desayuno"></input>
+        <input type="radio" name="radio" value="Desayuno" onChange={()=> setFilter("Desayuno")} id="Desayuno"></input>
         <div className="tab1">
-          <p>Aqui va el menu</p>
+          <MenuItems foodType={filter}/>
         </div>
-        <input type="radio" name="radio" id="Comidas"></input>
+        <input type="radio" name="radio" value="Comidas" onChange={()=> setFilter("Comidas")} id="Comidas"></input>
         <div className="tab2">
-          <p>Aqui va el menu</p>
+          <MenuItems foodType={filter}/>  
         </div>
-        <input type="radio" name="radio" id="Bebidas"></input>
+        <input type="radio" name="radio" value="Bebidas" onChange={()=> setFilter("Bebidas")} id="Bebidas"></input>
         <div  className="tab3">
-          <p>Aqui va el menu</p>
+          <MenuItems foodType={filter}/>
         </div>
-        <input type="radio" name="radio" id="Adiciones"></input>
+        <input type="radio" name="radio" value="Adiciones" onChange={()=> setFilter("Adiciones")} id="Adiciones"></input>
         <div  className="tab4">
-          <p>Aqui va el menu</p>
+          <MenuItems foodType={filter}/>
         </div>
       </div>
       

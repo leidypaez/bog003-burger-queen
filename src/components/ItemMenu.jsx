@@ -1,29 +1,30 @@
 import React from 'react';
-import '../index.css';
+import '../CSS/menu.css';
 import dataMenu from '../data-menu/menu.json';
 
 const menu = dataMenu.menu;
 
-const ItemMenuChart = ({itemImg, itemName, itemPrice, itemType}) => {
+const ItemMenuChart = ({itemImg, itemName, itemPrice}) => {
     
     return (
-        <div className="itemMenu">
+        <section className="itemMenu">
             <img className="itemImg" src={itemImg} alt={itemName} />
             <p> {itemName} </p>
             <p> {itemPrice} </p>
-        </div>
+        </section>
     );
 }
 
-const MenuItems = () => {
+const MenuItems = (props) => {
+    console.log(props)
     return (
         <section className="menuItems">
             
-            { menu.filter (item => item.type === 'Comidas')
+            { menu.filter (item => item.type === props.foodType)
             .map(item => (
 
                 <ItemMenuChart 
-                key={item.name}
+                key={item.id}
                 itemImg= {item.img}
                 itemName={item.name}
                 itemPrice={item.price}
