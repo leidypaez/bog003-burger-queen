@@ -8,14 +8,14 @@
   
   }
 .menuItems section{
-  margin: 3px;
+  margin: 2px;
 }
   .menuItems::-webkit-scrollbar{
     width: 10px;
 }
 .menuItems::-webkit-scrollbar-thumb{
     border-radius: 20px;
-    background-color:#698DEB ;
+    background-color:#d0d8ee ;
 }
 .menuItems::-webkit-scrollbar-thumb:hover{
     background-color: #789af0;
