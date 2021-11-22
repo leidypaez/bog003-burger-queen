@@ -1,4 +1,4 @@
-import "../CSS/tab.css";
+import "./tab.css";
 import { React, useState } from "react";
 import MenuItems from './ItemMenu.jsx';
 

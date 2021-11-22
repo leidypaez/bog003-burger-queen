@@ -1,5 +1,5 @@
 import React from 'react';
-import '../CSS/menu.css';
+import './menu.css';
 import dataMenu from '../data-menu/menu.json';
 
 const menu = dataMenu.menu;
